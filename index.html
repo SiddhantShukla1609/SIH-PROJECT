@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> code summoners </title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="login.css">
+    <style>
+      .backgroundconverter {
+    background-color:black;
+    color: white;
+      }
+    </style>
+</head>
+<nav>
+    <div id="navigation-bar">
+        <ul>
+            <li class="nav-list" onclick="
+           let = document.querySelector('.nav-list').classList.toggle('backgroundconverter')"> HOME </li>
+            <li class="nav-list" onclick="alert('a')"> ENVIRONMENT </li>
+            <li class="nav-list"> SOCIAL </li>
+            <li class="nav-list"> GOVERNANCE </li>
+        
+            <!-- Rounded switch -->
+
+            <label class="switch" onclick="
+            document.querySelector('.switch').classList.toggle('backgroundconverter')">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+          
+             <select> choose any language
+                <option value=""> HINDI </option>
+                <option value=""> ENGLISH </option>
+                <option value=""> TAMIL </option>
+            </select> 
+        
+            <button class="btn" onclick="showmodal()"> LOGIN / SIGNUP</button>  
+        </ul>
+    </div>
+</nav>
+
+<div class="overlay"></div> 
+<div class="loginform">
+  <span onclick=" closemodal()">&times</span>
+  <form>
+    <div>
+    <label>  user name </label>
+    <input type="text">
+  </div>
+  <div>
+    <label for=""> Password </label>
+    <input type="password">
+  </div>
+  <button> login </button>
+  </form>
+</div>
+
+
+<footer>
+  <div id="footer">
+    
+  </div>
+</footer>
+<!-- signup and login page -->
+
+    
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+
+
+<script src="index.js">
+ 
+</script>
+</body>
+
+</html>
